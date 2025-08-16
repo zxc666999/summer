@@ -17,6 +17,9 @@ class MusinsaSpiderSpider(scrapy.Spider):
 
 
 
+
+
+
     def start_requests(self):
         get_id = ['104015004']
         for id in get_id:
