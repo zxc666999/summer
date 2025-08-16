@@ -8,16 +8,12 @@ import re
 import scrapy
 from loguru import logger
 from scrapy import cmdline
-from musinsa.musinsa_id import get_id
-from musinsa.main import callback
+from summer.musinsa.musinsa.musinsa_id import get_id
+from summer.musinsa.musinsa.main import callback
 class MusinsaSpiderSpider(scrapy.Spider):
     name = 'musinsa_spider'
     # allowed_domains = ['www.musinsa.com']
     # start_urls = ['http://www.musinsa.com/']
-
-
-
-
 
 
     def start_requests(self):
